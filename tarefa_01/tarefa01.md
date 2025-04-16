@@ -9,4 +9,6 @@ Esses scripts foram feitos para rodar no banco de dados `sqlite` presente na pas
 
 ## Questões
 
-...
+### 2. Faça uma consulta que selecione o nome de todos os funcionários, exceto o mais idoso.
+
+- [Questão 02](tarefa01-q1.sql)
