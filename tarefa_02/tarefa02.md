@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Ou, se preferir, instale através do pip diretamente:
 
 ```bash
-pip install SQLAlchemy
+pip install SQLAlchemy psycopg2-binary
 ```
 
 ## OBDC
