@@ -2,7 +2,8 @@
 
 ## Scripts
 
-(W.I.P)
+- [Inicialização do SQL](tarefa02-init.sql)
+- [Execução no Python](orm.py)
 
 ### Conectando ao Database no PgAdmin
 
