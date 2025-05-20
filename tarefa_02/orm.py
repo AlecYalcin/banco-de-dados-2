@@ -67,11 +67,6 @@ def listar_projetos_e_atividades() -> dict[Projeto, list[Atividade]]:
         dict: Um dicionário onde as chaves são objetos do tipo Projeto e os valores são listas de objetos do tipo Atividade.
     """
 
-    @dataclass
-    class AtividadesDoProjeto:
-        projeto: Projeto
-        atividades: list[Atividade]
-
     with Session(engine) as session:
         resultado = session.query(Projeto, Atividade).outerjoin(Atividade, Atividade.projeto == Projeto.codigo).all()
     
